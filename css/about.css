@@ -111,15 +111,6 @@ main {
     font-style: italic;
 }
 
-section h2{
-    text-align: center;
-    color: #3e178c;
-}
-
-section p{
-    text-align: center;
-}
-
 ol{
     text-align: center;
     margin: 0 auto;
