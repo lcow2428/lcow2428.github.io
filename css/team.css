@@ -2,6 +2,7 @@
 Student Name: Annsona Ansilon Dores
 Student Id: c0932173
 */
+
 body {
     background-color: #ccb3ff; /* Set background color */
     font-family: 'Georgia', 'Times New Roman', serif; /* Set default font */
@@ -115,42 +116,47 @@ main {
     font-style: italic;
 }
 
-ol{
-    text-align: center;
-    margin: 0 auto;
-    max-width: 600px; 
-}
-
-li {
-    list-style-position: inside; /* Place numbering inside the list item */
-    margin-bottom: 10px; /* Add spacing between list items */
-}
-
-.viewport {
+main {
     padding: 20px;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+h1, h2, p {
+    color: #333;
+    text-align: center; /* Justify text */
+    
+}
+
+/* Styling for marketing team aside */
+aside {
+    background-color: #ccb3ff;
+    padding: 10px;
+}
+
+.image-row {
+    display: flex;
+}
+  
+.image-container {
+    flex: 1;
     text-align: center;
-    font-family: 'Georgia', 'Times New Roman', serif; /* Set default font */
-   
+    margin: 10px;
+    margin-left: auto;
 }
+  
+.image-choice {
+    width: 95%;
+    height: 75%;
 
-/* Media queries for different viewports */
-/* Mobile Styles */
-@media (max-width: 600px) {
-    .mobile {
-        background-color: #ccb3ff;
-    }
 }
-
-/* Tablet Styles */
-@media (min-width: 601px) and (max-width: 1024px) {
-    .tablet {
-        background-color: #ccb3ff;
-    }
-}
-
-/* Desktop Styles */
-@media (min-width: 1025px) {
-    .desktop {
-        background-color: #ccb3ff;
-    }
+.image-caption {
+    margin-top: 10px;
+    font-size: 14px;
+    color: black;
+    font-family: 'Arial', sans-serif;
+    font-size: 14pt;
+    font-style: italic;
 }
