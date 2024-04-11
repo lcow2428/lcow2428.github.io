@@ -168,4 +168,27 @@ Student Id: c0932173
         font-size: 14pt;
         font-style: italic;
     }
+
+    /* Style rule for Video and Audio */
+   
+    video {
+        display: block;
+        margin: 30px auto;
+        outline: none;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        max-width: 50%; /* Adjust the maximum width as needed */
+        height: auto;
+    }
+    audio{
+        display: block;
+        margin: 30px auto;
+        outline: none;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h2{
+        text-align: center;
+        font-size: 24px;
+        color: #3e178c;
+        font-family: 'Arial', sans-serif;
+}
   
